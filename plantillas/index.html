@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <p> Hola, como va? Yo soy {{nombre}} {{apellido}}</p><!--Se agregan las variables entre dos corchetes--> 
+    
+    <p>
+    {% for n in notas %}
+
+        {{n}}
+        <br> <!--Recorre todos los elementos de la variable-->
+    {% endfor %}
+    </p>
+    
+</body>
+</html>
